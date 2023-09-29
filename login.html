@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My 1st Login Project">
+    <meta name="keywords" content="HTML, CSS, Login page">
+    <meta name="author" content="Aroh Gahane">
+    <title>Login Page</title>
+
+    <link rel="shortcut icon" href="../img/logo1.png" type="image/x-icon">
+
+    <style>
+        body{
+            /* background-color:darkcyan; */
+            /* background-image: url(../img/loginb11.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover; */
+            background-image: linear-gradient(to right, red, blue,yellow);
+        }
+
+        h1{
+            text-align: center;
+            font-size: 80px;
+            color: red;
+        }
+
+        form{
+            text-align: center;
+
+            font-size: 30px;
+            font-weight: bolder;
+            color: white;
+
+        }
+
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            border-style: none;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            background-color: darkgreen;
+            color: white;
+        }
+
+        fieldset{
+            width: 200px;
+            text-align: center;
+            position: absolute;
+            right: 650px;
+            border: 10px solid lightcoral;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>SUBSCRIBE</h1>
+
+    <form action="./home.html" method="get">
+
+        <fieldset>
+            <legend>SUBSCRIBE</legend>
+            <label for="Login">Login ID</label>
+            <input type="text" name="Login" id="Login" placeholder="Enter Login ID" required><br><br>
+
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter Password Here" required> <br><br>
+
+            <button>Submit</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
